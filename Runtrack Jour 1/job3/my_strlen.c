@@ -1,5 +1,6 @@
 #include <stdio.h>
-int my_strlen(char *c) {
+int my_strlen(char *c) 
+{
     int i = 0;
 
     // Tant que le caractère actuel n'est pas le caractère de fin '\0'
@@ -10,7 +11,8 @@ int my_strlen(char *c) {
     return i; // On renvoie la taille totale trouvée
 }
 
-int main(void) {
+int main(void) 
+{
     // On peut stocker le résultat pour vérifier (optionnel)
     int taille = my_strlen("Hello, World!");
     printf("Taille: %d\n", taille);

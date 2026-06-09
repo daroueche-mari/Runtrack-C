@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // --- JOB 04 ---
-int char_is_digit(char c) {
+int char_is_digit(char c) 
+{
     if (c >= '0' && c <= '9') {
         return 1;
     } else {
@@ -10,7 +11,8 @@ int char_is_digit(char c) {
 }
 
 // --- JOB 05 ---
-int str_is_digit(char *str) {
+int str_is_digit(char *str) 
+{
     int i = 0;
     
     // Sécurité bonus : si la chaîne est vide, on considère que ce n'est pas un chiffre
@@ -28,7 +30,8 @@ int str_is_digit(char *str) {
 }
 
 // --- ZONE DE TEST ---
-int main(void) {
+int main(void) 
+{
     // 1. Tests pour char_is_digit (Job 04)
     printf("=== TESTS JOB 04 (char_is_digit) ===\n");
     char c1 = '5';

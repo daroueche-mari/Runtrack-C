@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-char *my_strcpy(char *dst, char *src) {
+char *my_strcpy(char *dst, char *src) 
+{
     int i = 0;
 
     // Tant qu'on n'a pas atteint la fin de la chaîne source
@@ -16,7 +17,8 @@ char *my_strcpy(char *dst, char *src) {
     return dst;
 }
 
-int main(void) {
+int main(void) 
+{
     char source[] = "Hello La Plateforme!";
     char destination[50]; // On crée une boîte assez grande pour accueillir la copie
 

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int my_strcmp(char *s1, char *s2) {
+int my_strcmp(char *s1, char *s2) 
+{
     int i = 0;
 
     // Tant que les caractères sont identiques ET qu'on n'est pas à la fin de s1
@@ -12,7 +13,8 @@ int my_strcmp(char *s1, char *s2) {
     return (s1[i] - s2[i]);
 }
 
-int main(void) {
+int main(void) 
+{
     // Cas 1 : Chaînes identiques (Doit renvoyer 0)
     char *str1 = "abc";
     char *str2 = "abc";
