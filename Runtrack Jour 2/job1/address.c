@@ -8,7 +8,7 @@
 
 void print_address(int *n)
 {
-    write(1, &n, sizeof(&n));
+    write(1, n, sizeof(n));
 }
 
 
